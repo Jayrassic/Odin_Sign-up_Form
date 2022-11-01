@@ -1,6 +1,7 @@
 :root{
     font-size: 16px;
     font-family: 'Libre Baskerville', serif;
+    /* box-sizing: border-box; */
 }
 
 body{
@@ -105,9 +106,9 @@ input:focus {
     border-color: skyblue;
 }
 
-/* input:invalid {
+.error {
     border-color: red;
-} */
+}
 
 .under-box {
     padding: 40px 25px;
