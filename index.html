@@ -30,11 +30,11 @@
                 <div class="input-box">
                     <div class="first-name">
                         <label for="first">First Name</label>
-                        <input required type="text" name="first" id="first">
+                        <input required type="text" name="first" id="first" maxlength="20">
                     </div>
                     <div class="last-name">
                         <label for="last">Last Name:</label>
-                        <input required type="text" name="last" id="last">
+                        <input required type="text" name="last" id="last" maxlength="20">
                     </div>
                     <div class="email">
                         <label for="email">Email Address</label>
@@ -42,7 +42,7 @@
                     </div>   
                     <div class="phone">
                         <label for="phone#">Phone Number</label>
-                        <input required type="tel" name="phone#" id="phone#">
+                        <input required type="tel" name="phone#" id="phone#" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$">
                     </div>
                     <div class="pass">
                         <label for="pass">Password</label>
@@ -51,7 +51,7 @@
                     </div>
                     <div class="pass-confirm">
                         <label for="pass-check">Confirm Password</label>
-                        <input required type="password" name="pass-check" id="pass-check">
+                        <input required type="password" name="pass-check" id="pass-check" class="normal">
                     </div>
                 </div>
             </div>
